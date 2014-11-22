@@ -1,11 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="cn-Zh">
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+   <link rel="shortcut icon" href="ico/favicon.png">
   </head>
+
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Project name</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <img class="span4" src="img/glyphicons-halflings.png">
+        <img class="span4" src="img/glyphicons-halflings.png">
+        <img class="span4" src="img/glyphicons-halflings.png">
+      </div>
+      <br>
+      <div class="row">
+        <img class="span4" src="img/glyphicons-halflings.png">
+        <img class="span4" src="img/glyphicons-halflings.png">
+        <img class="span4" src="img/glyphicons-halflings.png">
+      </div>
+      <br>
+      <div class="row">
+        <img class="span4" src="img/glyphicons-halflings.png">
+        <img class="span4" src="img/glyphicons-halflings.png">
+        <img class="span4" src="img/glyphicons-halflings.png">
+      </div>
+      <br>
+      <div class="row">
+        <img class="span4" src="img/glyphicons-halflings.png">
+        <img class="span4" src="img/glyphicons-halflings.png">
+        <img class="span4" src="img/glyphicons-halflings.png">
+      </div>
+     
+    </div> <!-- /container -->
+
+
   </body>
 </html>
